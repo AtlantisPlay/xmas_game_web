@@ -1,3 +1,76 @@
 {
-  "presets": []
+  "presets": [
+    {
+      "id": "ui.tap.default.soft",
+      "type": "bundle",
+      "concurrency_tag": "fx_minor",
+      "max_concurrent": 4,
+      "notes": "Default UI tap feedback - gentle edge glow",
+      "components": [
+        {
+          "inline": {
+            "type": "ring_glow",
+            "duration_s": 0.4,
+            "thickness_px": 3.0,
+            "blur_px": 8.0,
+            "opacity": 0.7,
+            "color": "#FFD700"
+          },
+          "at_s": 0.0,
+          "attach": {
+            "target": "button",
+            "anchor": "edge_perimeter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ui.tap.play.magic",
+      "type": "bundle",
+      "concurrency_tag": "fx_minor",
+      "max_concurrent": 2,
+      "notes": "Play button tap feedback - magical sparkle effect",
+      "components": [
+        {
+          "inline": {
+            "type": "ring_glow",
+            "duration_s": 0.5,
+            "thickness_px": 3.5,
+            "blur_px": 10.0,
+            "opacity": 0.9,
+            "color": "#FFD700"
+          },
+          "at_s": 0.0,
+          "attach": {
+            "target": "button",
+            "anchor": "edge_perimeter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ui.tap.album.magic",
+      "type": "bundle",
+      "concurrency_tag": "fx_minor",
+      "max_concurrent": 2,
+      "notes": "Album button tap feedback - gentle glitter",
+      "components": [
+        {
+          "inline": {
+            "type": "ring_glow",
+            "duration_s": 0.45,
+            "thickness_px": 2.5,
+            "blur_px": 7.0,
+            "opacity": 0.6,
+            "color": "#87CEEB"
+          },
+          "at_s": 0.0,
+          "attach": {
+            "target": "button",
+            "anchor": "edge_perimeter"
+          }
+        }
+      ]
+    }
+  ]
 }
