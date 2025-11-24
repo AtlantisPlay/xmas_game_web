@@ -1,0 +1,10 @@
+code,display_name,file_uri,role,loop,duration_s,notes
+MUS_AMB_PARENT,Assets/Music/MUS_AMB_PARENT.wav,Assets/Music/MUS_AMB_PARENT.wav,Ambience,true,60,Ambient piano/harp; parent zone (Settings screen - Flow_Settings_XM)
+MUS_LOOP_CELEBR,Assets/Music/MUS_LOOP_CELEBR.wav,Assets/Music/MUS_LOOP_CELEBR.wav,Celebration,false,8,Fanfare/harp/bells; reward complete (used in ALL 12 games: MG_XM01-12; crossfade or boost on RewardLoop_LastSuccess)
+MUS_LOOP_CHRISTMAS,Assets/Music/MUS_LOOP_CHRISTMAS.wav,Assets/Music/MUS_LOOP_CHRISTMAS.wav,Loop,true,45,Christmas main loop - gameplay (MG_XM01-05 and MG_XM11-12; fallback for Flow_Intro_XM)
+MUS_LOOP_CHRISTMAS_AMB,Assets/Music/MUS_LOOP_CHRISTMAS_AMB.wav,Assets/Music/MUS_LOOP_CHRISTMAS_AMB.wav,Loop,true,45,Christmas ambient main loop - gameplay (MG_XM06-09; calm ambient mood)
+MUS_LOOP_CHRISTMAS_HOME,Assets/Music/MUS_LOOP_CHRISTMAS_HOME.wav,Assets/Music/MUS_LOOP_CHRISTMAS_HOME.wav,Loop,true,40,Christmas home/cozy theme (Flow_HomeScreen_XM)
+MUS_LOOP_XM_GENTLE,Assets/Music/MUS_LOOP_XM_GENTLE.wav,Assets/Music/MUS_LOOP_XM_GENTLE.wav,Loop,true,45,Gentle Christmas ambient loop; calm festive mood (MG_XM10 Snowflakes only)
+MUS_SPLASH_STING_CHRISTMAS_3S,Assets/Music/MUS_SPLASH_STING_CHRISTMAS_3S.wav,Assets/Music/MUS_SPLASH_STING_CHRISTMAS_3S.wav,Transition,false,3,Christmas splash sting (Flow_Splash_XM; 3s magical bells/chimes; PLACEHOLDER - awaiting audio)
+MUS_CELEBR_XMASS,Assets/Music/MUS_CELEBR_XMASS.wav,Assets/Music/MUS_CELEBR_XMASS.wav,Celebration,false,10,Reserved for future use (Christmas celebration theme; 10s non-looping)
+
