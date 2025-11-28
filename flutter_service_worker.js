@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "f3174bdbfd25b5f7e57a4756760ed50d",
+const RESOURCES = {"flutter_bootstrap.js": "9ae5b59a4ee2fd990ba3130ce6dbd04a",
 "version.json": "f881f45bdcee82256a52fa211f663388",
 "index.html": "9ffb06a99732c7557b9e55e2a33e3830",
 "/": "9ffb06a99732c7557b9e55e2a33e3830",
-"main.dart.js": "b43c46c3391d6e3ac86923560917e061",
+"main.dart.js": "554cae91e7856a2f91c12a8b53f4b91b",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -139,7 +139,7 @@ const RESOURCES = {"flutter_bootstrap.js": "f3174bdbfd25b5f7e57a4756760ed50d",
 "assets/assets/img/cinematics/MG_XM08_CINEMATIC.png": "d33b7ffd5dce48c5c3a58e13fd6b6d5b",
 "assets/assets/img/cinematics/MG_XM03_CINEMATIC_video.mp4": "b78f81109aa3bcf3806fc3562c5e61a0",
 "assets/assets/img/cinematics/MG_XM01_CINEMATIC_video.mp4": "321f6615ace2cce1907a09ac625d51e6",
-"assets/assets/img/ui/navigation/hud_home.png": "68ad5a5a37e131ca16fb8ba2c9c32d09",
+"assets/assets/img/ui/navigation/hud_home.png": "b119a6aef2aef6bd7e330d7501740551",
 "assets/assets/img/ui/navigation/hud_setting.png": "1d8ca5db29b39c558aa2a7679e28efcb",
 "assets/assets/img/ui/navigation/hud_back.png": "909016ac1905cff2f3044695901d4661",
 "assets/assets/img/ui/navigation/hud_play.png": "31356ead9022b7bc810f0e1a8e9d8327",
