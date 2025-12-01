@@ -54375,7 +54375,7 @@ r=p.Fu$
 r===$&&A.a()
 q=p.Fv$
 q===$&&A.a()
-return new A.cO("Reward Sticker Scene",s,B.agK,A.bT(new A.lN(A.b([r,q],t.bA)),new A.av8(p),null),null)},
+return new A.cO("Reward Sticker Scene",s,B.agJ,A.bT(new A.lN(A.b([r,q],t.bA)),new A.av8(p),null),null)},
 a0K(){if(!this.OD$)return B.z
 var s=this.gHp()
 return A.h0(0,A.ea(A.aUl(B.bj,new A.e(s.a*0.8,s.b*0.9481481481481482),18),!0,null),null)}}
@@ -55460,7 +55460,7 @@ $.v9().qc("assets/sfx/sfx_teach_ping_soft.mp3")
 A.bU(B.e6,new A.aGV(this),t.P)},
 M(a){var s,r,q=this,p=null,o=A.aTL(new A.aGX(q)),n=q.ax?0.95:1,m=t.p,l=A.b([B.Mz],m)
 if(q.f)l.push(A.dQ(new A.vw(3,q.r,B.i.aY(0.3),p,B.Mt,p,p,p),128,128))
-o=A.b([B.Up,B.adE,new A.cO("play_button",B.ac1,B.agZ,o,p),A.es(48,A.aSD(A.cP(p,A.dQ(new A.cw(B.a2,p,B.an,B.A,l,p),120,120),B.L,!1,p,p,p,p,p,p,p,p,p,p,p,q.gamT(),p,p,p,p,p,q.gamW(),q.gamX(),q.gamZ(),p,p,p),B.a7,B.e4,n),p,p,48,p,p,p)],m)
+o=A.b([B.Up,B.adE,new A.cO("play_button",B.ac1,B.agY,o,p),A.es(48,A.aSD(A.cP(p,A.dQ(new A.cw(B.a2,p,B.an,B.A,l,p),120,120),B.L,!1,p,p,p,p,p,p,p,p,p,p,p,q.gamT(),p,p,p,p,p,q.gamW(),q.gamX(),q.gamZ(),p,p,p),B.a7,B.e4,n),p,p,48,p,p,p)],m)
 if(q.x){n=A.c7(12)
 l=A.el(B.iQ.aY(0.3),1.5)
 s=A.b([new A.bx(0,B.Q,B.n.aY(0.15),B.kE,12)],t.V)
@@ -55648,7 +55648,7 @@ m=m.a
 s=m.gq2()
 r=A.b([B.Uo],t.p)
 if(o.at&&!o.as)r.push(B.i6)
-if(o.Q)r.push(new A.cO("Garland Lights",B.abu,B.agV,A.cU("assets/img/decorations/garland_on.png",n,n,n,B.R,n,n),n))
+if(o.Q)r.push(new A.cO("Garland Lights",B.abu,B.agU,A.cU("assets/img/decorations/garland_on.png",n,n,n,B.R,n,n),n))
 if(o.ax)q="assets/img/characters/polar_bear_cub_hooray.webp"
 else q=A.qN("assets/img/characters/polar_bear_cub.png",".png","_idle.webp")
 r.push(new A.cO("Polar Bear Character",B.ab8,B.agC,A.cU(q,n,n,new A.aI0(),B.R,n,n),n))
@@ -55758,7 +55758,7 @@ m=m===B.bv
 r=A.b([B.Uu],t.p)
 if(o.ay)r.push(A.h0(0,A.bH(n,n,B.m,n,n,B.N2,n,n,n,n,n,n,n),n))
 r.push(B.i6)
-r.push(new A.k9("Garland Lights",B.abN,o.Q?"assets/img/decorations/garland_on_northern.png":"assets/img/decorations/garland_off_northern.png",B.agI,B.R,n))
+if(o.Q)r.push(new A.k9("Garland Lights",B.abT,"assets/img/decorations/garland_on_northern.png",B.ahh,B.R,n))
 q=o.ax?"assets/img/characters/duo_penguins_celebrate.webp":"assets/img/characters/duo_penguins_idle.webp"
 r.push(new A.cO("Duo Penguins",B.aba,B.H,A.cU(q,n,n,new A.aI7(),B.R,n,n),n))
 if(o.l5$)r.push(o.yK())
@@ -55872,8 +55872,8 @@ r=A.b([B.Uq],t.p)
 q=o.as
 if(!q)r.push(B.i6)
 q=o.ax?"assets/img/characters/snowman_orange_pink_hat_celebrate.webp":"assets/img/characters/snowman_orange_pink_hat_idle.webp"
-r.push(new A.cO("Snowman Character",B.abE,B.ah8,A.cU(q,n,n,new A.aIg(),B.R,n,n),n))
-if(o.Q)r.push(new A.cO("Wreath Garland",B.abt,B.agO,A.cU("assets/img/decorations/wreath_garland.png",n,n,n,B.R,n,n),n))
+r.push(new A.cO("Snowman Character",B.abE,B.ah7,A.cU(q,n,n,new A.aIg(),B.R,n,n),n))
+if(o.Q)r.push(new A.cO("Wreath Garland",B.abt,B.agN,A.cU("assets/img/decorations/wreath_garland.png",n,n,n,B.R,n,n),n))
 if(o.l5$)r.push(o.yK())
 B.b.L(r,o.Ey(o.ch,o.CW))
 if(o.wP()){q=o.gbX()
@@ -56332,7 +56332,7 @@ if(s!=null)s.aQ(0)},
 afm(){if(!this.at||this.as==null)return B.z
 var s=this.as
 s.toString
-return new A.dx(s,!1,new A.k9("santa_window",B.acj,"assets/img/santa_reindeer/window.png",B.ahc,B.R,B.ar3),null)},
+return new A.dx(s,!1,new A.k9("santa_window",B.acj,"assets/img/santa_reindeer/window.png",B.ahb,B.R,B.ar3),null)},
 afp(){if(!this.ax)return A.b([],t.p)
 return A.aYw(B.KQ,B.FD,!0)},
 M(a){var s,r,q=this,p=q.gvQ(),o=q.e
@@ -56432,7 +56432,7 @@ return new A.a4t(s,s,$,$,$,$,!1,!1,!1,new A.bp(s,t.A),A.i(r,q),A.i(r,p),A.i(r,p)
 A.a4t.prototype={
 gcg(){return B.Ot},
 ga5G(){return"assets/img/stickers/reward_sticker_scene_mg12.png"},
-gHp(){return B.abP},
+gHp(){return B.abO},
 ac(){this.lJ()
 this.A2()
 this.a3p()},
@@ -56568,7 +56568,7 @@ case 3:return A.u(null,r)}})
 return A.v($async$xN,r)},
 af1(){var s=this,r=null,q=t.p
 return A.es(40,A.c8(A.b([A.cG(A.b([A.cP(r,B.aoV,B.L,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.aM7(s),r,r,r,r,r,r),B.KV,A.cP(r,B.aoa,B.L,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.aM8(s),r,r,r,r,r,r)],q),B.E,B.dO,B.q,0),B.Y,A.cG(A.b([A.cP(r,B.aov,B.L,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.aM9(s),r,r,r,r,r,r),B.KV,A.cP(r,B.ao6,B.L,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.aMa(s),r,r,r,r,r,r)],q),B.E,B.dO,B.q,0)],q),B.E,B.t,B.cZ),r,r,0,0,r,r)},
-aeR(){return new A.cO("home_button",B.acu,B.ahb,A.aTL(new A.aM6(this)),null)}}
+aeR(){return new A.cO("home_button",B.acu,B.aha,A.aTL(new A.aM6(this)),null)}}
 A.aMm.prototype={
 $1(a){var s=this.a
 if(s.c!=null)s.Ct()},
@@ -57696,7 +57696,7 @@ A.ri.prototype={
 au3(a){A.aVN(!0,new A.ag5(this),a,t.z)},
 M(a){var s=null
 $.f_().wN(this.d)
-return A.Bs(A.cP(s,A.bH(s,B.Vc,B.m,s,s,new A.bz(B.b5.aY(0.9),s,A.el(B.i,2),s,A.b([new A.bx(0,B.Q,B.n.aY(0.3),B.di,8)],t.V),s,B.cq),s,60,s,s,s,s,60),B.L,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ag6(this,a),s,s,s,s,s,s),"debug_info_button",this.c,s,B.agQ)}}
+return A.Bs(A.cP(s,A.bH(s,B.Vc,B.m,s,s,new A.bz(B.b5.aY(0.9),s,A.el(B.i,2),s,A.b([new A.bx(0,B.Q,B.n.aY(0.3),B.di,8)],t.V),s,B.cq),s,60,s,s,s,s,60),B.L,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ag6(this,a),s,s,s,s,s,s),"debug_info_button",this.c,s,B.agP)}}
 A.ag5.prototype={
 $1(a){return new A.rj(this.a.d,null)},
 $S:478}
@@ -58354,7 +58354,7 @@ M(a){var s=null,r=A.c1(a,s,t.l).w.a
 return A.nb(s,A.bH(s,new A.RO(B.R,B.a2,A.dQ(new A.cw(B.ak,s,B.an,B.A,A.b([this.c,B.LM],t.p),s),1024,1536),s),B.m,s,s,B.N3,s,r.b,s,s,s,s,r.a))}}
 A.Sk.prototype={
 M(a){var s=null
-return A.Bs(A.cP(s,A.cU("assets/img/ui/navigation/hud_home.png",s,s,s,B.R,139.3,139.3),B.L,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ald(a),s,s,s,s,s,s),"home_button",B.abB,s,B.ah9)}}
+return A.Bs(A.cP(s,A.cU("assets/img/ui/navigation/hud_home.png",s,s,s,B.R,139.3,139.3),B.L,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.ald(a),s,s,s,s,s,s),"home_button",B.abB,s,B.ah8)}}
 A.ald.prototype={
 $0(){A.dp(this.a,!1).lr(A.iB(B.jx,!0,t.z))},
 $S:0}
@@ -61982,7 +61982,7 @@ r=A.wR(B.aaR,B.h,r==null?1:r)
 r.toString
 q=p.V(0,q.gn(q))
 if(q==null)q=1
-return A.Za(A.b_8(null,B.m,new A.wI(q,B.a0l,new A.dL(B.ML,this.e)),s,1,B.ah_),r)}}
+return A.Za(A.b_8(null,B.m,new A.wI(q,B.a0l,new A.dL(B.ML,this.e)),s,1,B.agZ),r)}}
 A.LZ.prototype={
 j(){var s=this,r=s.ar$
 if(r!=null)r.I(0,s.gcJ())
@@ -62277,7 +62277,7 @@ A.a25.prototype={
 aE(a,b){var s,r,q,p=$.Y(),o=A.aR(),n=this.b
 o.r=n.gn(n)
 s=A.hv(B.abg,6)
-r=A.tG(B.abT,new A.e(7,b.b))
+r=A.tG(B.abS,new A.e(7,b.b))
 q=A.cb(p.w)
 q.aT(new A.m6(s))
 q.aT(new A.hg(r))
@@ -66340,7 +66340,7 @@ M(a){var s=null,r=A.c1(a,B.cL,t.l).w.r.b+8
 return new A.bZ(new A.aJ(8,r,8,8),new A.k2(new A.Rh(this.c.ab(0,new A.e(8,r))),A.dQ(A.pd(B.am,!0,B.MP,A.c8(this.d,B.E,B.t,B.cZ),B.d9,s,1,s,s,s,s,s,B.er),s,222),s),s)}}
 A.w_.prototype={
 M(a){var s=null
-return A.dQ(A.az0(this.d,this.c,A.aUt(B.h8,s,s,s,s,B.c_,s,s,B.c_,A.a3(a).ax.a===B.b4?B.i:B.a5,s,B.agL,B.TV,s,B.kW,s,s,s,s,s)),s,1/0)}}
+return A.dQ(A.az0(this.d,this.c,A.aUt(B.h8,s,s,s,s,B.c_,s,s,B.c_,A.a3(a).ax.a===B.b4?B.i:B.a5,s,B.agK,B.TV,s,B.kW,s,s,s,s,s)),s,1/0)}}
 A.Rk.prototype={
 M(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=null
 A.a3(a)
@@ -69518,7 +69518,7 @@ r.e=s.a.a
 r.f=s.d},
 $S:0}
 A.Tm.prototype={
-M(a){return A.b_8(new A.oj(B.RS,null,null),B.A,new A.wI(1,B.a3e,new A.dL(B.MK,B.C)),this.c.a2(0,new A.e(0,40.95)),1.25,B.ahf)}}
+M(a){return A.b_8(new A.oj(B.RS,null,null),B.A,new A.wI(1,B.a3e,new A.dL(B.MK,B.C)),this.c.a2(0,new A.e(0,40.95)),1.25,B.ahe)}}
 A.tb.prototype={
 O(){return"MaterialType."+this.b}}
 A.Dj.prototype={
@@ -73691,7 +73691,7 @@ af7(){var s=null,r=A.bd(this.c,s,B.ajr,s,!1,s,s,s)
 return r},
 M(a){var s=this.af7()
 return A.dQ(A.iu(s,null,1),46,null)},
-gH2(){return B.agW}}
+gH2(){return B.agV}}
 A.a8B.prototype={
 Yc(a,b){var s,r,q,p,o=this,n={}
 A.a3(a)
@@ -75103,7 +75103,7 @@ A.zq.prototype={
 O(){return"_TextSelectionToolbarItemPosition."+this.b}}
 A.Z0.prototype={
 M(a){var s=this,r=null
-return A.az0(s.c,s.d,A.aUt(s.f,r,B.X,r,r,r,r,r,r,A.bdt(A.a3(a).ax),r,B.agM,s.e,r,B.kW,r,r,r,B.akV,r))}}
+return A.az0(s.c,s.d,A.aUt(s.f,r,B.X,r,r,r,r,r,r,A.bdt(A.a3(a).ax),r,B.agL,s.e,r,B.kW,r,r,r,B.akV,r))}}
 A.eG.prototype={
 bz(b3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1=this,b2=null
 if(b3==null)return b1
@@ -115594,7 +115594,7 @@ B.rP=new A.rh(2,"initializedServices")
 B.SR=new A.rh(3,"initializingUi")
 B.SS=new A.rh(4,"initialized")
 B.acp=new A.e(167.5,326.4)
-B.agQ=new A.o(60,60)
+B.agP=new A.o(60,60)
 B.ST=new A.ri(B.acp,"settings_screen",null)
 B.aaU=new A.e(100,100)
 B.SU=new A.ri(B.aaU,"splash_screen",null)
@@ -115871,14 +115871,14 @@ B.tC=new A.fp("Too many percent/permill",null,null)
 B.ck=new A.fp("Message corrupted",null,null)
 B.jt=new A.Cr(0)
 B.abx=new A.e(970,290)
-B.agX=new A.o(506.1,337.4)
-B.Ul=new A.k9("splash_text_fun",B.abx,"assets/img/game_title/text_fun.png",B.agX,B.R,null)
+B.agW=new A.o(506.1,337.4)
+B.Ul=new A.k9("splash_text_fun",B.abx,"assets/img/game_title/text_fun.png",B.agW,B.R,null)
 B.abr=new A.e(900,750)
-B.agY=new A.o(732.3,488.2)
-B.Um=new A.k9("splash_text_games",B.abr,"assets/img/game_title/text_games.png",B.agY,B.R,null)
+B.agX=new A.o(732.3,488.2)
+B.Um=new A.k9("splash_text_games",B.abr,"assets/img/game_title/text_games.png",B.agX,B.R,null)
 B.abn=new A.e(850,470)
-B.agN=new A.o(1409.5,939.7)
-B.Un=new A.k9("splash_text_christmas",B.abn,"assets/img/game_title/text_christmas.png",B.agN,B.R,null)
+B.agM=new A.o(1409.5,939.7)
+B.Un=new A.k9("splash_text_christmas",B.abn,"assets/img/game_title/text_christmas.png",B.agM,B.R,null)
 B.Uo=new A.fT("assets/img/backgrounds/mg01_forest_clearing.png",null)
 B.Up=new A.fT("assets/img/backgrounds/home_screen_background.png",null)
 B.Uq=new A.fT("assets/img/backgrounds/mg03_holiday_entrance.png",null)
@@ -115934,7 +115934,7 @@ B.bS=new A.Cz(0,"deferToChild")
 B.ax=new A.Cz(1,"opaque")
 B.ct=new A.Cz(2,"translucent")
 B.abB=new A.e(73.4,75.2)
-B.ah9=new A.o(139.3,139.3)
+B.ah8=new A.o(139.3,139.3)
 B.UA=new A.Sk(null)
 B.jx=new A.oD(null)
 B.UB=new A.CC(null)
@@ -116309,17 +116309,17 @@ B.uV=s(["ian.","feb.","mar.","apr.","mai","iun.","iul.","aug.","sept.","oct.","n
 B.ab5=new A.e(768.9,532.4)
 B.J=new A.e(1700,900)
 B.v=new A.o(200,200)
-B.ah0=new A.o(140.3,140.3)
-B.ahN=new A.bq(B.ab5,"ornament_bauble_red",u.C,B.J,B.v,B.ah0,"ornament_bauble_red_placed")
+B.ah_=new A.o(140.3,140.3)
+B.ahN=new A.bq(B.ab5,"ornament_bauble_red",u.C,B.J,B.v,B.ah_,"ornament_bauble_red_placed")
 B.abo=new A.e(768.9,666.8)
-B.ah5=new A.o(117.5,117.5)
-B.ahK=new A.bq(B.abo,"ornament_snowflake","assets/img/ornaments/ornament_snowflake_white.png",B.J,B.v,B.ah5,"ornament_snowflake_placed")
+B.ah4=new A.o(117.5,117.5)
+B.ahK=new A.bq(B.abo,"ornament_snowflake","assets/img/ornaments/ornament_snowflake_white.png",B.J,B.v,B.ah4,"ornament_snowflake_placed")
 B.ac7=new A.e(957.3,292.7)
-B.agP=new A.o(160.2,160.2)
-B.ahX=new A.bq(B.ac7,"ornament_bow_red",u.r,B.J,B.v,B.agP,"ornament_bow_red_placed")
-B.abS=new A.e(942,813.5)
-B.ah6=new A.o(145.4,145.4)
-B.ahQ=new A.bq(B.abS,"ornament_bauble_blue",u.P,B.J,B.v,B.ah6,"ornament_bauble_blue_placed")
+B.agO=new A.o(160.2,160.2)
+B.ahX=new A.bq(B.ac7,"ornament_bow_red",u.r,B.J,B.v,B.agO,"ornament_bow_red_placed")
+B.abR=new A.e(942,813.5)
+B.ah5=new A.o(145.4,145.4)
+B.ahQ=new A.bq(B.abR,"ornament_bauble_blue",u.P,B.J,B.v,B.ah5,"ornament_bauble_blue_placed")
 B.acq=new A.e(938.7,639.2)
 B.KP=new A.o(134.3,134.3)
 B.ahM=new A.bq(B.acq,"ornament_candy_cane_a","assets/img/ornaments/ornament_candy_cane_a.png",B.J,B.v,B.KP,"ornament_candy_cane_a_placed")
@@ -116333,17 +116333,17 @@ B.ac4=new A.e(961.5,482.7)
 B.agv=new A.o(133,133)
 B.aiq=new A.bq(B.ac4,"ornament_gingerbread",u.g,B.J,B.v,B.agv,"ornament_gingerbread_placed")
 B.ac6=new A.e(1065.3,391.9)
-B.ah3=new A.o(128.4,128.4)
-B.aio=new A.bq(B.ac6,"ornament_pink_stripe","assets/img/baubles/ornament_pink_diagonal_stripe.png",B.J,B.v,B.ah3,"ornament_pink_stripe_placed")
+B.ah2=new A.o(128.4,128.4)
+B.aio=new A.bq(B.ac6,"ornament_pink_stripe","assets/img/baubles/ornament_pink_diagonal_stripe.png",B.J,B.v,B.ah2,"ornament_pink_stripe_placed")
 B.abe=new A.e(1134,538.4)
-B.ah1=new A.o(136.4,136.4)
-B.aia=new A.bq(B.abe,"ornament_blue_snowflake","assets/img/baubles/ornament_blue_snowflake_pattern.png",B.J,B.v,B.ah1,"ornament_blue_snowflake_placed")
+B.ah0=new A.o(136.4,136.4)
+B.aia=new A.bq(B.abe,"ornament_blue_snowflake","assets/img/baubles/ornament_blue_snowflake_pattern.png",B.J,B.v,B.ah0,"ornament_blue_snowflake_placed")
 B.acl=new A.e(1099.3,698.2)
-B.ahe=new A.o(165.1,165.1)
-B.aii=new A.bq(B.acl,"ornament_nutcracker","assets/img/ornaments/ornament_nutcracker.png",B.J,B.v,B.ahe,"ornament_nutcracker_placed")
+B.ahd=new A.o(165.1,165.1)
+B.aii=new A.bq(B.acl,"ornament_nutcracker","assets/img/ornaments/ornament_nutcracker.png",B.J,B.v,B.ahd,"ornament_nutcracker_placed")
 B.acv=new A.e(661.2,790.1)
-B.ahg=new A.o(140.7,140.7)
-B.aig=new A.bq(B.acv,"ornament_bauble_yellow",u.h,B.J,B.v,B.ahg,"ornament_bauble_yellow_placed")
+B.ahf=new A.o(140.7,140.7)
+B.aig=new A.bq(B.acv,"ornament_bauble_yellow",u.h,B.J,B.v,B.ahf,"ornament_bauble_yellow_placed")
 B.Fw=new A.e(958.4,139.5)
 B.lg=new A.o(220,220)
 B.ahL=new A.bq(B.Fw,"ornament_star_topper",u.n,B.J,B.lg,B.v,"ornament_star_topper_placed")
@@ -116900,14 +116900,14 @@ B.a19=s(["dom.","luns","mar.","m\xe9r.","xov.","ven.","s\xe1b."],t.s)
 B.xb=s(["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],t.s)
 B.a1a=s(["\u0bae\u0bc1\u0bb1\u0bcd\u0baa\u0b95\u0bb2\u0bcd","\u0baa\u0bbf\u0bb1\u0bcd\u0baa\u0b95\u0bb2\u0bcd"],t.s)
 B.a1b=s(["Kuartal ke-1","Kuartal ke-2","Kuartal ke-3","Kuartal ke-4"],t.s)
-B.abR=new A.e(840.6,240.7)
+B.abQ=new A.e(840.6,240.7)
 B.agA=new A.o(161.7,161.7)
-B.ai6=new A.bq(B.abR,"wreath_berries_holly_a","assets/img/ornaments/ornament_berries_holly_a.png",B.J,B.v,B.agA,"wreath_berries_holly_a_placed")
+B.ai6=new A.bq(B.abQ,"wreath_berries_holly_a","assets/img/ornaments/ornament_berries_holly_a.png",B.J,B.v,B.agA,"wreath_berries_holly_a_placed")
 B.abM=new A.e(1136,391.1)
 B.aij=new A.bq(B.abM,"wreath_bauble_red",u.C,B.J,B.v,B.KT,"wreath_bauble_red_placed")
 B.abU=new A.e(784.1,328.9)
-B.ah4=new A.o(126.6,126.6)
-B.aih=new A.bq(B.abU,"wreath_bauble_gold",u.h,B.J,B.v,B.ah4,"wreath_bauble_gold_placed")
+B.ah3=new A.o(126.6,126.6)
+B.aih=new A.bq(B.abU,"wreath_bauble_gold",u.h,B.J,B.v,B.ah3,"wreath_bauble_gold_placed")
 B.ac_=new A.e(1088.2,233.2)
 B.ahk=new A.o(119.8,119.8)
 B.ai0=new A.bq(B.ac_,"wreath_berries_holly_b","assets/img/ornaments/ornament_berries_holly_b.png",B.J,B.v,B.ahk,"wreath_berries_holly_b_placed")
@@ -116917,20 +116917,20 @@ B.ai_=new A.bq(B.abX,"wreath_bauble_green",u.y,B.J,B.v,B.ahi,"wreath_bauble_gree
 B.abd=new A.e(875,476.6)
 B.aif=new A.bq(B.abd,"wreath_pinecone_b","assets/img/ornaments/ornament_pinecone_b.png",B.J,B.v,B.KP,"wreath_pinecone_b_placed")
 B.abD=new A.e(968.4,220.5)
-B.agT=new A.o(189.3,189.3)
-B.ahI=new A.bq(B.abD,"wreath_bow_red_large","assets/img/ornaments/ornament_bow_red_large.png",B.J,B.v,B.agT,"wreath_bow_red_large_placed")
+B.agS=new A.o(189.3,189.3)
+B.ahI=new A.bq(B.abD,"wreath_bow_red_large","assets/img/ornaments/ornament_bow_red_large.png",B.J,B.v,B.agS,"wreath_bow_red_large_placed")
 B.abJ=new A.e(1133.5,301)
-B.agU=new A.o(130.3,130.3)
-B.ail=new A.bq(B.abJ,"wreath_bird_cardinal","assets/img/ornaments/ornament_bird_cardinal.png",B.J,B.v,B.agU,"wreath_bird_cardinal_placed")
+B.agT=new A.o(130.3,130.3)
+B.ail=new A.bq(B.abJ,"wreath_bird_cardinal","assets/img/ornaments/ornament_bird_cardinal.png",B.J,B.v,B.agT,"wreath_bird_cardinal_placed")
 B.abz=new A.e(811.5,413)
 B.ahj=new A.o(130.9,130.9)
 B.ai5=new A.bq(B.abz,"wreath_heart_velvet","assets/img/ornaments/ornament_heart_velvet.png",B.J,B.v,B.ahj,"wreath_heart_velvet_placed")
 B.abW=new A.e(1083.2,457.6)
-B.ah2=new A.o(134.5,134.5)
-B.aic=new A.bq(B.abW,"wreath_star_gold_small","assets/img/ornaments/ornament_star_gold_small.png",B.J,B.v,B.ah2,"wreath_star_gold_small_placed")
+B.ah1=new A.o(134.5,134.5)
+B.aic=new A.bq(B.abW,"wreath_star_gold_small","assets/img/ornaments/ornament_star_gold_small.png",B.J,B.v,B.ah1,"wreath_star_gold_small_placed")
 B.acw=new A.e(971.7,311.6)
-B.agS=new A.o(148.5,148.5)
-B.ahU=new A.bq(B.acw,"wreath_bell_gold_large","assets/img/ornaments/ornament_bell_gold_large.png",B.J,B.lg,B.agS,"wreath_bell_gold_large_placed")
+B.agR=new A.o(148.5,148.5)
+B.ahU=new A.bq(B.acw,"wreath_bell_gold_large","assets/img/ornaments/ornament_bell_gold_large.png",B.J,B.lg,B.agR,"wreath_bell_gold_large_placed")
 B.nL=s([B.ai6,B.aij,B.aih,B.ai0,B.ai_,B.aif,B.ahI,B.ail,B.ai5,B.aic,B.ahU],t.L9)
 B.xc=s(["\u043d\u044f\u0434\u0437\u0435\u043b\u044f","\u043f\u0430\u043d\u044f\u0434\u0437\u0435\u043b\u0430\u043a","\u0430\u045e\u0442\u043e\u0440\u0430\u043a","\u0441\u0435\u0440\u0430\u0434\u0430","\u0447\u0430\u0446\u0432\u0435\u0440","\u043f\u044f\u0442\u043d\u0456\u0446\u0430","\u0441\u0443\u0431\u043e\u0442\u0430"],t.s)
 B.a1c=s(["Yan","Fev","Mar","Apr","May","Iyn","Iyl","Avg","Sen","Okt","Noy","Dek"],t.s)
@@ -117359,19 +117359,19 @@ B.a4d=s(["\u063a.\u0645.","\u063a.\u0648."],t.s)
 B.a4e=s(["\u0d15\u0d4d\u0d30\u0d3f.\u0d2e\u0d41.","\u0d0e\u0d21\u0d3f"],t.s)
 B.a4f=s(["janu\xe1ra","febru\xe1ra","marca","apr\xedla","m\xe1ja","j\xfana","j\xfala","augusta","septembra","okt\xf3bra","novembra","decembra"],t.s)
 B.acc=new A.e(1391.3,547.2)
-B.ahd=new A.o(283.7,283.7)
-B.aie=new A.bq(B.acc,"stocking_red","assets/img/fireplace_stockings/stocking_red.png",B.J,B.v,B.ahd,"stocking_red_placed")
+B.ahc=new A.o(283.7,283.7)
+B.aie=new A.bq(B.acc,"stocking_red","assets/img/fireplace_stockings/stocking_red.png",B.J,B.v,B.ahc,"stocking_red_placed")
 B.abp=new A.e(1178.8,546.9)
-B.aha=new A.o(263.8,263.8)
-B.ai2=new A.bq(B.abp,"stocking_green","assets/img/fireplace_stockings/stocking_green.png",B.J,B.v,B.aha,"stocking_green_placed")
+B.ah9=new A.o(263.8,263.8)
+B.ai2=new A.bq(B.abp,"stocking_green","assets/img/fireplace_stockings/stocking_green.png",B.J,B.v,B.ah9,"stocking_green_placed")
 B.abH=new A.e(965.7,546.3)
 B.agp=new A.o(249.2,249.2)
 B.ahW=new A.bq(B.abH,"stocking_white","assets/img/fireplace_stockings/stocking_white.png",B.J,B.v,B.agp,"stocking_white_placed")
 B.abF=new A.e(748.4,548.4)
-B.ahh=new A.o(251.3,251.3)
-B.ais=new A.bq(B.abF,"stocking_striped","assets/img/fireplace_stockings/stocking_striped.png",B.J,B.v,B.ahh,"stocking_striped_placed")
-B.ah7=new A.o(199.9,199.9)
-B.aiv=new A.bq(B.oq,"stocking_blue","assets/img/fireplace_stockings/stocking_blue.png",B.J,B.v,B.ah7,"stocking_blue_placed")
+B.ahg=new A.o(251.3,251.3)
+B.ais=new A.bq(B.abF,"stocking_striped","assets/img/fireplace_stockings/stocking_striped.png",B.J,B.v,B.ahg,"stocking_striped_placed")
+B.ah6=new A.o(199.9,199.9)
+B.aiv=new A.bq(B.oq,"stocking_blue","assets/img/fireplace_stockings/stocking_blue.png",B.J,B.v,B.ah6,"stocking_blue_placed")
 B.nW=s([B.aie,B.ai2,B.ahW,B.ais,B.aiv],t.L9)
 B.a4h=s(["f\xf6re Kristus","efter Kristus"],t.s)
 B.a4i=s(["\u043d\u044f\u043c","\u0434\u0430\u0432\u0430\u0430","\u043c\u044f\u0433\u043c\u0430\u0440","\u043b\u0445\u0430\u0433\u0432\u0430","\u043f\u04af\u0440\u044d\u0432","\u0431\u0430\u0430\u0441\u0430\u043d","\u0431\u044f\u043c\u0431\u0430"],t.s)
@@ -118723,10 +118723,10 @@ B.abq=new A.e(1350.1,477.9)
 B.abt=new A.e(960,360)
 B.abu=new A.e(960,500)
 B.abE=new A.e(1272,863.8)
-B.abN=new A.e(779,497.1)
-B.abO=new A.e(-0.3333333333333333,0)
-B.abP=new A.e(1318.3,433.8)
-B.abT=new A.e(5,10.5)
+B.abN=new A.e(-0.3333333333333333,0)
+B.abO=new A.e(1318.3,433.8)
+B.abS=new A.e(5,10.5)
+B.abT=new A.e(1005.4,577.1)
 B.abY=new A.e(1/0,0)
 B.abZ=new A.e(73.2,198)
 B.Fy=new A.e(-0.25,0)
@@ -119146,24 +119146,24 @@ B.agD=new A.o(22,22)
 B.agE=new A.o(28,28)
 B.agF=new A.o(34,22)
 B.agG=new A.o(360,504)
-B.agI=new A.o(400,600)
-B.agK=new A.o(480,480)
-B.agL=new A.o(48,36)
-B.agM=new A.o(48,48)
-B.agO=new A.o(520,520)
-B.agV=new A.o(800,600)
+B.agJ=new A.o(480,480)
+B.agK=new A.o(48,36)
+B.agL=new A.o(48,48)
+B.agN=new A.o(520,520)
+B.agU=new A.o(800,600)
 B.KN=new A.o(80,80)
-B.agW=new A.o(1/0,46)
-B.agZ=new A.o(998.6,665.7)
-B.ah_=new A.o(80,47.5)
+B.agV=new A.o(1/0,46)
+B.agY=new A.o(998.6,665.7)
+B.agZ=new A.o(80,47.5)
 B.KQ=new A.o(298.9,298.9)
-B.ah8=new A.o(468.6,596.4)
+B.ah7=new A.o(468.6,596.4)
 B.KR=new A.o(-1,1)
 B.KS=new A.o(-1,-1)
-B.ahb=new A.o(161.1,161.1)
-B.ahc=new A.o(1030.3,1030.3)
-B.ahf=new A.o(77.37,37.9)
+B.aha=new A.o(161.1,161.1)
+B.ahb=new A.o(1030.3,1030.3)
+B.ahe=new A.o(77.37,37.9)
 B.cD=new A.o(1/0,1/0)
+B.ahh=new A.o(596,893.9)
 B.KU=new A.dM(12,null,null,null)
 B.KV=new A.dM(32,null,null,null)
 B.ahl=new A.dM(60,null,null,null)
@@ -119681,12 +119681,12 @@ B.ap_=new A.bm("Select minigame...",null,B.iq,null,null,null,null,null,null,null
 B.amL=new A.p(!0,B.d_,null,null,null,null,11,B.as,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.ap0=new A.bm("Inline Component",null,B.amL,null,null,null,null,null,null,null)
 B.ave=new A.azG(0,"system")
-B.abQ=new A.e(0.056,0.024)
+B.abP=new A.e(0.056,0.024)
 B.acs=new A.e(0.108,0.3085)
 B.abG=new A.e(0.198,0.541)
 B.acb=new A.e(0.3655,1)
 B.acr=new A.e(0.5465,0.989)
-B.lr=new A.GA(B.abQ,B.acs,B.abG,B.acb,B.acr)
+B.lr=new A.GA(B.abP,B.acs,B.abG,B.acb,B.acr)
 B.ls=new A.GB(0)
 B.ap2=new A.GB(0.5)
 B.ap3=new A.GC(null)
@@ -119898,10 +119898,10 @@ B.fZ=new A.bV(B.cD,t.W7)
 B.lB=new A.bV(B.eW,t.mD)
 B.aro=new A.bV(B.i,t.De)
 B.pI=new A.bV(B.i,t.rc)
-B.agJ=new A.o(40,40)
-B.lC=new A.bV(B.agJ,t.W7)
-B.agR=new A.o(64,40)
-B.LS=new A.bV(B.agR,t.W7)
+B.agI=new A.o(40,40)
+B.lC=new A.bV(B.agI,t.W7)
+B.agQ=new A.o(64,40)
+B.LS=new A.bV(B.agQ,t.W7)
 B.h_=new A.bV(B.L0,t.li)
 B.lD=new A.cH(3,"dragged")
 B.N=new A.cH(6,"disabled")
@@ -120544,7 +120544,7 @@ s($,"bnH","b4R",()=>A.be4(new A.aDK(),t.Pb))
 s($,"bpN","b6i",()=>A.as([B.Sz,A.c7(40),B.SA,A.c7(40),B.rI,A.c7(12)],A.aE("vS"),t.m_))
 s($,"bpE","aWw",()=>new A.a2_())
 s($,"boV","b5L",()=>A.fg(B.fv,B.h,t.o))
-s($,"boO","aWq",()=>A.fg(B.h,B.abO,t.o))
+s($,"boO","aWq",()=>A.fg(B.h,B.abN,t.o))
 r($,"bnI","b4S",()=>A.b8g(B.atq,B.atp))
 s($,"bpF","aWx",()=>new A.QY())
 r($,"bpM","b6h",()=>$.b6f().t(0,"windowing"))
