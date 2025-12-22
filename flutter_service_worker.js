@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "1d3dfcf18470a308e4c7f15637650b6c",
+const RESOURCES = {"flutter_bootstrap.js": "d3b7ebd02e320ce043c6dd57b2596484",
 "version.json": "2408302a50d0bd1224a59031b4c8da59",
 "index.html": "9ffb06a99732c7557b9e55e2a33e3830",
 "/": "9ffb06a99732c7557b9e55e2a33e3830",
-"main.dart.js": "693b07366bd39874cd2120edcd4ff816",
+"main.dart.js": "64433c716568f03287ceb804b1df8e87",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
 "favicon.png": "1fb1b94e91c1ecf4db522bc4e8ce01b4",
 "icons/Icon-192.png": "ca64f73fdc3a3e18d6a9d5ca570677e9",
@@ -210,7 +210,7 @@ const RESOURCES = {"flutter_bootstrap.js": "1d3dfcf18470a308e4c7f15637650b6c",
 "assets/assets/img/ornaments/ornament_star_gold_small.png": "50242029e5e02ee4a9c86234292cdaeb",
 "assets/assets/img/fireplace_stockings/stocking_green.png": "84e3526ea832d59eccac76c1a0f2aabf",
 "assets/assets/img/fireplace_stockings/stocking_red.png": "24b077dd6b84370c36fcfd08973b3567",
-"assets/assets/img/fireplace_stockings/stocking_blue.png": "e4eaa6bcd6c5ac98c5ca1b3d8a96617e",
+"assets/assets/img/fireplace_stockings/stocking_blue.png": "a3176ccb7f09d65c7d73c4df4298856b",
 "assets/assets/img/fireplace_stockings/stocking_white.png": "068fd541245fe5f61d8a84c0555913a3",
 "assets/assets/img/fireplace_stockings/stocking_striped.png": "a7dbd2732c3c5411d7b3ef51556d5193",
 "assets/assets/img/mg13_toys/toy_duck_gold.png": "532baa8d8e865f07f0055f2dca35b8f2",
