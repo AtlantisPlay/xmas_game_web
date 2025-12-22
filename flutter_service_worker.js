@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "2a6203ef2f5ff2bc8227bff8ca3e80f5",
+const RESOURCES = {"flutter_bootstrap.js": "1d3dfcf18470a308e4c7f15637650b6c",
 "version.json": "2408302a50d0bd1224a59031b4c8da59",
 "index.html": "9ffb06a99732c7557b9e55e2a33e3830",
 "/": "9ffb06a99732c7557b9e55e2a33e3830",
-"main.dart.js": "cfaae5c5e52efd0d6d34c3369b1d888b",
+"main.dart.js": "693b07366bd39874cd2120edcd4ff816",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
 "favicon.png": "1fb1b94e91c1ecf4db522bc4e8ce01b4",
 "icons/Icon-192.png": "ca64f73fdc3a3e18d6a9d5ca570677e9",
@@ -68,7 +68,7 @@ const RESOURCES = {"flutter_bootstrap.js": "2a6203ef2f5ff2bc8227bff8ca3e80f5",
 "assets/assets/img/mg15_elements/mg15_garlands_twinkle.png": "a6739eb2112531ad0078c520869c5d57",
 "assets/assets/img/mg15_elements/mg15_node_light.png": "333ccab9efcc74d0f12285c4a742d36e",
 "assets/assets/img/mg13_bags/bag_blue_target.png": "2537b3e305dba01171272f562ca39d9b",
-"assets/assets/img/mg13_bags/bag_gold_target.png": "30dd54d32b49196ba384e8d8f398b721",
+"assets/assets/img/mg13_bags/bag_gold_target.png": "cd395657ffceb46f17f68a68d5947ab6",
 "assets/assets/img/mg15_vfx/vfx_trace_star_sprite.png": "0e057e7689279a85d23eb03a806c83a6",
 "assets/assets/img/game_title/subtitle.png": "ab82e1cab15d0fa0491470b56c14cec7",
 "assets/assets/img/game_title/christmas.png": "bbcb89f2eb5eea2c7f53f7ceea76002f",
