@@ -47433,7 +47433,7 @@ aAM(a,b){return this.kR(a,!1,B.ag,b)},
 aAN(a0,a1,a2,a3){var s=0,r=A.r(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$kR=A.t(function(a4,a5){if(a4===1){o.push(a5)
 s=p}for(;;)switch(s){case 0:b=n.a
-s=b.length>=7?3:4
+s=b.length>=20?3:4
 break
 case 3:g=B.b.Ol(b,new A.atV())
 s=a2.c>g.b.c?5:7
